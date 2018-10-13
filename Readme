@@ -1,0 +1,10 @@
+test-memory
+-----------
+
+Very stupid memory bechmark/stress-test program. Allocates a set amount of memory and fill it with predictable pattern. 
+Then re-reads allocated memory and compare values to check for modifications.
+
+Usage:
+    test-memory -t <number-of-threads> -g <amount-of-memory-to-allocate-in-gb>
+
+
